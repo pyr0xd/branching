@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using App;
+
+Car myCar = new Car("Red", "Toyota");
+Console.WriteLine(myCar.Brand);
+Console.WriteLine(myCar.Color);
+myCar.Drive();
