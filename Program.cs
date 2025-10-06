@@ -1,6 +1,8 @@
 ﻿using App;
 
+MT mt = new MT();
+
 Car myCar = new Car("Red", "Toyota");
-Console.WriteLine(myCar.Brand);
+mt.prnt(myCar.Brand);
 Console.WriteLine(myCar.Color);
 myCar.Drive();
